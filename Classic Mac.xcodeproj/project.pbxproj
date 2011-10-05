@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF633144143BDE640020D96A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF633143143BDE640020D96A /* Cocoa.framework */; };
+		CF63314E143BDE640020D96A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF63314C143BDE640020D96A /* InfoPlist.strings */; };
+		CF633150143BDE640020D96A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF63314F143BDE640020D96A /* main.m */; };
+		CF633154143BDE640020D96A /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CF633152143BDE640020D96A /* Credits.rtf */; };
+		CF633157143BDE640020D96A /* ClassicVirtualMac.m in Sources */ = {isa = PBXBuildFile; fileRef = CF633156143BDE640020D96A /* ClassicVirtualMac.m */; };
+		CF63315A143BDE640020D96A /* ClassicVirtualMac.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF633158143BDE640020D96A /* ClassicVirtualMac.xib */; };
+		CF63315D143BDE650020D96A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF63315B143BDE650020D96A /* MainMenu.xib */; };
+		CF633165143BDE650020D96A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF633164143BDE650020D96A /* SenTestingKit.framework */; };
+		CF633166143BDE650020D96A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF633143143BDE640020D96A /* Cocoa.framework */; };
+		CF63316E143BDE650020D96A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF63316C143BDE650020D96A /* InfoPlist.strings */; };
+		CF633170143BDE650020D96A /* Classic_MacTests.h in Resources */ = {isa = PBXBuildFile; fileRef = CF63316F143BDE650020D96A /* Classic_MacTests.h */; };
+		CF633172143BDE650020D96A /* Classic_MacTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF633171143BDE650020D96A /* Classic_MacTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF633167143BDE650020D96A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF633136143BDE640020D96A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF63313E143BDE640020D96A;
+			remoteInfo = "Classic Mac";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF63313F143BDE640020D96A /* Classic Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Classic Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF633143143BDE640020D96A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CF633146143BDE640020D96A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CF633147143BDE640020D96A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CF633148143BDE640020D96A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CF63314B143BDE640020D96A /* Classic Mac-Info.plist */ = {isa = PBXFileReference; path = "Classic Mac-Info.plist"; sourceTree = "<group>"; };
+		CF63314D143BDE640020D96A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CF63314F143BDE640020D96A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF633151143BDE640020D96A /* Classic Mac-Prefix.pch */ = {isa = PBXFileReference; path = "Classic Mac-Prefix.pch"; sourceTree = "<group>"; };
+		CF633153143BDE640020D96A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		CF633155143BDE640020D96A /* ClassicVirtualMac.h */ = {isa = PBXFileReference; path = ClassicVirtualMac.h; sourceTree = "<group>"; };
+		CF633156143BDE640020D96A /* ClassicVirtualMac.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassicVirtualMac.m; sourceTree = "<group>"; };
+		CF633159143BDE640020D96A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ClassicVirtualMac.xib; sourceTree = "<group>"; };
+		CF63315C143BDE650020D96A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CF633163143BDE650020D96A /* Classic MacTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Classic MacTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF633164143BDE650020D96A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CF63316B143BDE650020D96A /* Classic MacTests-Info.plist */ = {isa = PBXFileReference; path = "Classic MacTests-Info.plist"; sourceTree = "<group>"; };
+		CF63316D143BDE650020D96A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CF63316F143BDE650020D96A /* Classic_MacTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Classic_MacTests.h; sourceTree = "<group>"; };
+		CF633171143BDE650020D96A /* Classic_MacTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Classic_MacTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF63313C143BDE640020D96A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF633144143BDE640020D96A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF63315F143BDE650020D96A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF633165143BDE650020D96A /* SenTestingKit.framework in Frameworks */,
+				CF633166143BDE650020D96A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF633134143BDE640020D96A = {
+			isa = PBXGroup;
+			children = (
+				CF633149143BDE640020D96A /* Classic Mac */,
+				CF633169143BDE650020D96A /* Classic MacTests */,
+				CF633142143BDE640020D96A /* Frameworks */,
+				CF633140143BDE640020D96A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF633140143BDE640020D96A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF63313F143BDE640020D96A /* Classic Mac.app */,
+				CF633163143BDE650020D96A /* Classic MacTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF633142143BDE640020D96A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF633143143BDE640020D96A /* Cocoa.framework */,
+				CF633164143BDE650020D96A /* SenTestingKit.framework */,
+				CF633145143BDE640020D96A /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF633145143BDE640020D96A /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF633146143BDE640020D96A /* AppKit.framework */,
+				CF633147143BDE640020D96A /* CoreData.framework */,
+				CF633148143BDE640020D96A /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		CF633149143BDE640020D96A /* Classic Mac */ = {
+			isa = PBXGroup;
+			children = (
+				CF633155143BDE640020D96A /* ClassicVirtualMac.h */,
+				CF633156143BDE640020D96A /* ClassicVirtualMac.m */,
+				CF633158143BDE640020D96A /* ClassicVirtualMac.xib */,
+				CF63315B143BDE650020D96A /* MainMenu.xib */,
+				CF63314A143BDE640020D96A /* Supporting Files */,
+			);
+			path = "Classic Mac";
+			sourceTree = "<group>";
+		};
+		CF63314A143BDE640020D96A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF63314B143BDE640020D96A /* Classic Mac-Info.plist */,
+				CF63314C143BDE640020D96A /* InfoPlist.strings */,
+				CF63314F143BDE640020D96A /* main.m */,
+				CF633151143BDE640020D96A /* Classic Mac-Prefix.pch */,
+				CF633152143BDE640020D96A /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF633169143BDE650020D96A /* Classic MacTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF63316F143BDE650020D96A /* Classic_MacTests.h */,
+				CF633171143BDE650020D96A /* Classic_MacTests.m */,
+				CF63316A143BDE650020D96A /* Supporting Files */,
+			);
+			path = "Classic MacTests";
+			sourceTree = "<group>";
+		};
+		CF63316A143BDE650020D96A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF63316B143BDE650020D96A /* Classic MacTests-Info.plist */,
+				CF63316C143BDE650020D96A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF63313E143BDE640020D96A /* Classic Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF633175143BDE650020D96A /* Build configuration list for PBXNativeTarget "Classic Mac" */;
+			buildPhases = (
+				CF63313B143BDE640020D96A /* Sources */,
+				CF63313C143BDE640020D96A /* Frameworks */,
+				CF63313D143BDE640020D96A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Classic Mac";
+			productName = "Classic Mac";
+			productReference = CF63313F143BDE640020D96A /* Classic Mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF633162143BDE650020D96A /* Classic MacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF633178143BDE650020D96A /* Build configuration list for PBXNativeTarget "Classic MacTests" */;
+			buildPhases = (
+				CF63315E143BDE650020D96A /* Sources */,
+				CF63315F143BDE650020D96A /* Frameworks */,
+				CF633160143BDE650020D96A /* Resources */,
+				CF633161143BDE650020D96A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF633168143BDE650020D96A /* PBXTargetDependency */,
+			);
+			name = "Classic MacTests";
+			productName = "Classic MacTests";
+			productReference = CF633163143BDE650020D96A /* Classic MacTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF633136143BDE640020D96A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Software Architect";
+			};
+			buildConfigurationList = CF633139143BDE640020D96A /* Build configuration list for PBXProject "Classic Mac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF633134143BDE640020D96A;
+			productRefGroup = CF633140143BDE640020D96A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF63313E143BDE640020D96A /* Classic Mac */,
+				CF633162143BDE650020D96A /* Classic MacTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF63313D143BDE640020D96A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF63314E143BDE640020D96A /* InfoPlist.strings in Resources */,
+				CF633154143BDE640020D96A /* Credits.rtf in Resources */,
+				CF63315A143BDE640020D96A /* ClassicVirtualMac.xib in Resources */,
+				CF63315D143BDE650020D96A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF633160143BDE650020D96A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF63316E143BDE650020D96A /* InfoPlist.strings in Resources */,
+				CF633170143BDE650020D96A /* Classic_MacTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CF633161143BDE650020D96A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF63313B143BDE640020D96A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF633150143BDE640020D96A /* main.m in Sources */,
+				CF633157143BDE640020D96A /* ClassicVirtualMac.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF63315E143BDE650020D96A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF633172143BDE650020D96A /* Classic_MacTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF633168143BDE650020D96A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF63313E143BDE640020D96A /* Classic Mac */;
+			targetProxy = CF633167143BDE650020D96A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF63314C143BDE640020D96A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF63314D143BDE640020D96A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CF633152143BDE640020D96A /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF633153143BDE640020D96A /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		CF633158143BDE640020D96A /* ClassicVirtualMac.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF633159143BDE640020D96A /* en */,
+			);
+			name = ClassicVirtualMac.xib;
+			sourceTree = "<group>";
+		};
+		CF63315B143BDE650020D96A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF63315C143BDE650020D96A /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		CF63316C143BDE650020D96A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF63316D143BDE650020D96A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF633173143BDE650020D96A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CF633174143BDE650020D96A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CF633176143BDE650020D96A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Classic Mac/Classic Mac-Prefix.pch";
+				INFOPLIST_FILE = "Classic Mac/Classic Mac-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CF633177143BDE650020D96A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Classic Mac/Classic Mac-Prefix.pch";
+				INFOPLIST_FILE = "Classic Mac/Classic Mac-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CF633179143BDE650020D96A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Classic Mac.app/Contents/MacOS/Classic Mac";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Classic Mac/Classic Mac-Prefix.pch";
+				INFOPLIST_FILE = "Classic MacTests/Classic MacTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CF63317A143BDE650020D96A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Classic Mac.app/Contents/MacOS/Classic Mac";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Classic Mac/Classic Mac-Prefix.pch";
+				INFOPLIST_FILE = "Classic MacTests/Classic MacTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF633139143BDE640020D96A /* Build configuration list for PBXProject "Classic Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF633173143BDE650020D96A /* Debug */,
+				CF633174143BDE650020D96A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF633175143BDE650020D96A /* Build configuration list for PBXNativeTarget "Classic Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF633176143BDE650020D96A /* Debug */,
+				CF633177143BDE650020D96A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF633178143BDE650020D96A /* Build configuration list for PBXNativeTarget "Classic MacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF633179143BDE650020D96A /* Debug */,
+				CF63317A143BDE650020D96A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF633136143BDE640020D96A /* Project object */;
+}
