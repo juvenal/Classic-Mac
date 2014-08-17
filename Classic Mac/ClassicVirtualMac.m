@@ -2,16 +2,15 @@
 //  ClassicVirtualMac.m
 //  Classic Mac
 //
-//  Created by Juvenal Silva on 04/10/2011.
-//  Copyright 2011 Software Architect. All rights reserved.
+//  Created by Juvenal A. Silva Jr. on 04/10/2011.
+//  Copyright 2011 Juvenal A. Silva Jr. All rights reserved.
 //
 
 #import "ClassicVirtualMac.h"
 
 @implementation ClassicVirtualMac
 
-- (id)init
-{
+- (id)init {
     self = [super init];
     if (self) {
         // Add your subclass-specific initialization here.
@@ -20,21 +19,18 @@
     return self;
 }
 
-- (NSString *)windowNibName
-{
+- (NSString *)windowNibName {
     // Override returning the nib file name of the document
     // If you need to use a subclass of NSWindowController or if your document supports multiple NSWindowControllers, you should remove this method and override -makeWindowControllers instead.
     return @"ClassicVirtualMac";
 }
 
-- (void)windowControllerDidLoadNib:(NSWindowController *)aController
-{
+- (void)windowControllerDidLoadNib:(NSWindowController *)aController {
     [super windowControllerDidLoadNib:aController];
     // Add any code here that needs to be executed once the windowController has loaded the document's window.
 }
 
-- (NSData *)dataOfType:(NSString *)typeName error:(NSError **)outError
-{
+- (NSData *)dataOfType:(NSString *)typeName error:(NSError **)outError {
     /*
      Insert code here to write your document to data of the specified type. If outError != NULL, ensure that you create and set an appropriate error when returning nil.
     You can also choose to override -fileWrapperOfType:error:, -writeToURL:ofType:error:, or -writeToURL:ofType:forSaveOperation:originalContentsURL:error: instead.
@@ -45,8 +41,7 @@
     return nil;
 }
 
-- (BOOL)readFromData:(NSData *)data ofType:(NSString *)typeName error:(NSError **)outError
-{
+- (BOOL)readFromData:(NSData *)data ofType:(NSString *)typeName error:(NSError **)outError {
     /*
     Insert code here to read your document from the given data of the specified type. If outError != NULL, ensure that you create and set an appropriate error when returning NO.
     You can also choose to override -readFromFileWrapper:ofType:error: or -readFromURL:ofType:error: instead.
@@ -58,8 +53,7 @@
     return YES;
 }
 
-+ (BOOL)autosavesInPlace
-{
++ (BOOL)autosavesInPlace {
     return YES;
 }
 

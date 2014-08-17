@@ -2,8 +2,8 @@
 //  Classic_MacTests.h
 //  Classic MacTests
 //
-//  Created by Juvenal Silva on 04/10/2011.
-//  Copyright 2011 Software Architect. All rights reserved.
+//  Created by Juvenal A. Silva Jr. on 04/10/2011.
+//  Copyright 2011 Juvenal A. Silva Jr. All rights reserved.
 //
 
 #import <SenTestingKit/SenTestingKit.h>

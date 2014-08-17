@@ -19,6 +19,8 @@
 		CF63316E143BDE650020D96A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF63316C143BDE650020D96A /* InfoPlist.strings */; };
 		CF633170143BDE650020D96A /* Classic_MacTests.h in Resources */ = {isa = PBXBuildFile; fileRef = CF63316F143BDE650020D96A /* Classic_MacTests.h */; };
 		CF633172143BDE650020D96A /* Classic_MacTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF633171143BDE650020D96A /* Classic_MacTests.m */; };
+		CF63317F143BDFF90020D96A /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF63317C143BDFF80020D96A /* Quartz.framework */; };
+		CF633180143BDFF90020D96A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF63317D143BDFF80020D96A /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,21 +39,23 @@
 		CF633146143BDE640020D96A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		CF633147143BDE640020D96A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		CF633148143BDE640020D96A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		CF63314B143BDE640020D96A /* Classic Mac-Info.plist */ = {isa = PBXFileReference; path = "Classic Mac-Info.plist"; sourceTree = "<group>"; };
+		CF63314B143BDE640020D96A /* Classic Mac-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Classic Mac-Info.plist"; sourceTree = "<group>"; };
 		CF63314D143BDE640020D96A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CF63314F143BDE640020D96A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CF633151143BDE640020D96A /* Classic Mac-Prefix.pch */ = {isa = PBXFileReference; path = "Classic Mac-Prefix.pch"; sourceTree = "<group>"; };
+		CF633151143BDE640020D96A /* Classic Mac-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Classic Mac-Prefix.pch"; sourceTree = "<group>"; };
 		CF633153143BDE640020D96A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		CF633155143BDE640020D96A /* ClassicVirtualMac.h */ = {isa = PBXFileReference; path = ClassicVirtualMac.h; sourceTree = "<group>"; };
+		CF633155143BDE640020D96A /* ClassicVirtualMac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassicVirtualMac.h; sourceTree = "<group>"; };
 		CF633156143BDE640020D96A /* ClassicVirtualMac.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassicVirtualMac.m; sourceTree = "<group>"; };
 		CF633159143BDE640020D96A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ClassicVirtualMac.xib; sourceTree = "<group>"; };
 		CF63315C143BDE650020D96A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		CF633163143BDE650020D96A /* Classic MacTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Classic MacTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF633164143BDE650020D96A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		CF63316B143BDE650020D96A /* Classic MacTests-Info.plist */ = {isa = PBXFileReference; path = "Classic MacTests-Info.plist"; sourceTree = "<group>"; };
+		CF63316B143BDE650020D96A /* Classic MacTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Classic MacTests-Info.plist"; sourceTree = "<group>"; };
 		CF63316D143BDE650020D96A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CF63316F143BDE650020D96A /* Classic_MacTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Classic_MacTests.h; sourceTree = "<group>"; };
 		CF633171143BDE650020D96A /* Classic_MacTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Classic_MacTests.m; sourceTree = "<group>"; };
+		CF63317C143BDFF80020D96A /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		CF63317D143BDFF80020D96A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF63317F143BDFF90020D96A /* Quartz.framework in Frameworks */,
+				CF633180143BDFF90020D96A /* QuartzCore.framework in Frameworks */,
 				CF633144143BDE640020D96A /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -110,6 +116,8 @@
 				CF633146143BDE640020D96A /* AppKit.framework */,
 				CF633147143BDE640020D96A /* CoreData.framework */,
 				CF633148143BDE640020D96A /* Foundation.framework */,
+				CF63317C143BDFF80020D96A /* Quartz.framework */,
+				CF63317D143BDFF80020D96A /* QuartzCore.framework */,
 			);
 			name = "Other Frameworks";
 			sourceTree = "<group>";
@@ -202,6 +210,7 @@
 		CF633136143BDE640020D96A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = "Software Architect";
 			};
 			buildConfigurationList = CF633139143BDE640020D96A /* Build configuration list for PBXProject "Classic Mac" */;
@@ -381,9 +390,11 @@
 		CF633176143BDE650020D96A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Classic Mac/Classic Mac-Prefix.pch";
 				INFOPLIST_FILE = "Classic Mac/Classic Mac-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -392,9 +403,11 @@
 		CF633177143BDE650020D96A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Classic Mac/Classic Mac-Prefix.pch";
 				INFOPLIST_FILE = "Classic Mac/Classic Mac-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -447,6 +460,7 @@
 				CF633177143BDE650020D96A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF633178143BDE650020D96A /* Build configuration list for PBXNativeTarget "Classic MacTests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +469,7 @@
 				CF63317A143BDE650020D96A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
